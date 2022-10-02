@@ -1,5 +1,9 @@
 package org.example;
 
+import org.example.graphs.Edge;
+import org.example.graphs.GraphBuilder;
+import org.example.graphs.Node;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -60,7 +64,7 @@ public class Main {
                 .build();
 
 
-        var shortestPathTable = djkstraGraph.djikstra(a);
+        var shortestPathTable = djkstraGraph.generateShortestPathDjikstra(a);
         System.out.println("-----------------" );
         shortestPathTable.forEach(node -> {
             System.out.println("Node and shortest path = " + node);

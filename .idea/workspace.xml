@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e23c8a4b-b1ec-4b40-8fe2-fd2b80fddddd" name="Changes" comment="fix: i did this">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GraphBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Node.java" afterDir="false" />
+    <list default="true" id="e23c8a4b-b1ec-4b40-8fe2-fd2b80fddddd" name="Changes" comment="feat: Basic graph implementation and djikstras algorithm&#10;TODO: write tests">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graphs/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graphs/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/graphs/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GraphBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/graphs/GraphBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SomeImplementing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Node.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <module name="LearningJavaMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +90,7 @@
       <module name="LearningJavaMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +122,24 @@
       <workItem from="1664539989074" duration="1483000" />
       <workItem from="1664552068593" duration="300000" />
       <workItem from="1664642281160" duration="10616000" />
-      <workItem from="1664700433405" duration="12177000" />
+      <workItem from="1664700433405" duration="14066000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: Basic graph implementation and djikstras algorithm&#10;TODO: write tests">
+      <created>1664725233173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664725233173</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Basic graph implementation and djikstras algorithm&#10;TODO: write tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Basic graph implementation and djikstras algorithm&#10;TODO: write tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
